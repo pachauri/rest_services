@@ -1,0 +1,11 @@
+#DATA SOURCE
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/rest_service
+# Username and password
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.testWhileIdle=true
+spring.datasource.validationQuery=SELECT 1
+
